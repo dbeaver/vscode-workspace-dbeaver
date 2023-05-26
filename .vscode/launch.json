@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DBeaver CE",
+            "request": "launch",
+            "mainClass": "org.eclipse.equinox.launcher.Main",
+            "classPaths": [
+                "${env:DBEAVER_DEVEL_ECLIPSE_PATH}/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar"
+            ],
+            "args": [
+                "-product",
+                "org.jkiss.dbeaver.ui.app.standalone.product",
+                "-data",
+                "${env:DBEAVER_DEVEL_ECLIPSE_WORKSPACE_PATH}/runtime-DBeaver.product",
+                "-configuration",
+                "file:${env:DBEAVER_DEVEL_ECLIPSE_WORKSPACE_PATH}/.metadata/.plugins/org.eclipse.pde.core/DBeaver.product/",
+                "-dev",
+                "file:${env:DBEAVER_DEVEL_ECLIPSE_WORKSPACE_PATH}/.metadata/.plugins/org.eclipse.pde.core/DBeaver.product/dev.properties",
+                "-os",
+                "macosx", // Possible values: win32, linux, macosx
+                "-ws",
+                "cocoa", // Possible values: win32, gtk, cocoa
+                "-arch",
+                "aarch64", // Possible values: x86_64, aarch64
+                "-nl",
+                "en_US",
+                "-consoleLog",
+                "-showsplash"
+            ],
+            "vmArgs": [
+                "-XX:+IgnoreUnrecognizedVMOptions",
+                "--add-modules=ALL-SYSTEM",
+                "-Xms64m",
+                "-Xmx1024m",
+                "-Declipse.pde.launch=true",
+                // Comment out the next line if not on macOS
+                "-XstartOnFirstThread"
+            ]
+        }
+    ]
+}

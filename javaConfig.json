@@ -1,0 +1,6 @@
+{
+    "projects": [
+        "../dbeaver"
+    ],
+    "targetPlatform": "./org.jkiss.dbeaver.tp.target"
+}
