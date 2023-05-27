@@ -13,10 +13,7 @@ some_root_folder_with_your_dbeaver_assets
     — dbeaver-workspace-vscode (this repo)
 ```
 5. Edit the `org.jkiss.dbeaver.tp.target` file so the location points to the same folder as `DBEAVER_DEVEL_ECLIPSE_PATH` variable.
-6. Open VS Code. Install the following:
-  - https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
-  - https://marketplace.visualstudio.com/items?itemName=yaozheng.vscode-pde
-7. Now you can open the workspace in VS Code and start debugging.
+6. Open the workspace in VS Code and install recommended extensions. Reload the window.
+7. Now you can start DBeaver with the debugger attached using a predefined launch configuration for VS Code.
 
 Happy hacking!
- 
