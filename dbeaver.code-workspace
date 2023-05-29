@@ -1,17 +1,45 @@
 {
-	"folders": [
-		{
-			"name": "dbeaver",
-			"path": "../dbeaver",
-		},
-		{
-			"name": "dbeaver-workspace-vscode",
-			"path": "."
-		}
-	],
-	"settings": {
-		"java.configuration.updateBuildConfiguration": "automatic",
-		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx8G -Xms100m -Xlog:disable",
-		"java.compile.nullAnalysis.mode": "automatic"
-	}
+  "folders": [
+    {
+      "name": "dbeaver",
+      "path": "../dbeaver"
+    },
+    {
+      "name": "dbeaver-ee",
+      "path": "../dbeaver-ee"
+    },
+    {
+      "name": "cloudbeaver",
+      "path": "../cloudbeaver"
+    },
+    {
+      "name": "cloudbeaver-ee",
+      "path": "../cloudbeaver-ee"
+    },
+    {
+      "name": "dbeaver-resources-clients-native",
+      "path": "../dbeaver-resources-clients-native"
+    },
+    {
+      "name": "dbeaver-resources-drivers-jdbc",
+      "path": "../dbeaver-resources-drivers-jdbc"
+    },
+    {
+      "name": "dbeaver-jdbc-drivers",
+      "path": "../dbeaver-jdbc-drivers"
+    },
+    {
+      "name": "dbeaver-packaging",
+      "path": "../dbeaver-packaging"
+    },
+    {
+      "name": "dbeaver-workspace-vscode",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx16G -Xms100m -Xlog:disable",
+    "java.compile.nullAnalysis.mode": "automatic"
+  }
 }

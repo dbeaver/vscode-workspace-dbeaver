@@ -1,6 +1,13 @@
 {
     "projects": [
-        "../dbeaver"
+        "../dbeaver",
+        "../dbeaver-ee",
+        "../dbeaver-jdbc-drivers",
+        "../dbeaver-resources-clients-native",
+        "../dbeaver-resources-drivers-jdbc",
+        "../dbeaver-packaging",
+        "../cloudbeaver/server",
+        "../cloudbeaver-ee/server"
     ],
     "targetPlatform": "./org.jkiss.dbeaver.tp.target"
 }
