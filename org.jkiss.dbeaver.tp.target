@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="org.jkiss.tp.dbeaver">
+<target name="org.jkiss.dbeaver.tp">
 	<locations>
 	<!-- Provide the path to your local Eclipse installation's plugins folder.
 	The value below is a typical one for macOS machines  -->
